@@ -18,4 +18,5 @@ def health_check():
 """
 This Flask application serves a simple "Hello, world!" message at the root URL 
 and provides a health check endpoint at /health.
+
 """
