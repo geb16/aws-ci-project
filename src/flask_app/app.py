@@ -10,6 +10,7 @@ def hello():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
+# Additional route for health check
 @app.route('/health')
 def health_check():
     return 'OK', 200
