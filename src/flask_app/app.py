@@ -14,8 +14,3 @@ if __name__ == '__main__':
 @app.route('/health')
 def health_check():
     return 'OK', 200
-
-"""
-This Flask application serves a simple "Hello, world!" message at the root URL 
-and provides a health check endpoint at /health.
-"""
