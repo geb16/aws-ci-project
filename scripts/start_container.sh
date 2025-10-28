@@ -9,5 +9,3 @@ docker run -d -p 5000:5000 zawya20/simple-python-flask-app   # add here if you h
 
 # -d 
 # -t
-# 
-#
